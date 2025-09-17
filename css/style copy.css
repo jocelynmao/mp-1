@@ -1,0 +1,20 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Playfair display;
+    margin: 10px;
+  }
+  
+  h1 {
+    color: #ffbb50;
+    background-color: #bb74aa;
+    font-size: 100px;
+  }
+
+  h2 {
+    color: #bb74aa;
+    font-size: 20px;
+  }
+  
+  p {
+    color: #333;
+  }  

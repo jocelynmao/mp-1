@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main ul {
+    padding: 10px;
+    list-style: none;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+
+    border-left: 2px solid #204165;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+#page-wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    text-align: left;
+    padding: 10px;
+    color: #722d2c;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#bio {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    background-color: #fff9f7;
+    padding: 30px;
+}
+
+main a {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+body {
+    color: #204165;
+    background-color: #f0f0f0;
+    margin: 10px;
+}
+
+header ,footer {
+    background-color: #f4dbe3;
+}
+
+nav {
+    background-color: #e6dda4;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li{
+    background-color: #f6f7eb;
+    padding: 5%;
+    margin: 15px;
+    width: 95%;
+    font-size: calc(14px + .5vw);
+}
+
+nav a {
+    text-decoration: none;
+    color: #272727;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+}
+
+/*above is desktop. below is phone*/
+@media screen and (max-width: 750px) {
+    header {
+        text-align: center;
+    }
+
+    #page-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+
+    #container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin: 2px;
+    }
+
+    nav li {
+        width: auto;
+        margin: 2px;
+        padding: 4px 8px;
+        font-size: calc(12px + .5vw);
+    }
+
+    #bio {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    main {
+        width: 100%;
+    }
+}

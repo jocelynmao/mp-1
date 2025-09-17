@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Education | Jocelyn's Resume</title>
+    <link rel="stylesheet" type="text/css" href="../css/project_style.css">
+</head>
+
+<body>
+<div id="page-wrapper">
+    <header>
+        <h1>JOCELYN MAO</h1>
+        <p>A website showcasing my accomplishments</p>
+    </header>
+
+    <div id="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="employment.html">Employment</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+
+        <div id="content">
+            <main>
+                <h2>Projects</h2>
+
+                <ul>
+                    <li>Web Designer | <a>Women in Computer Science Club Website, Boston University</a></li>
+                    <li>May - Aug 2025</li>
+                </ul>
+                <ul>
+                    <li>Lead Media Developer | <a>Instagram Starter Pack, Chinatown ACCESS</a></li>
+                    <li>Jan - May 2024</li>
+                </ul>
+
+                <div id="calculator">
+                    <h3>Calculator</h3>
+                    <label>First Number: </label><input type="text" id="firstNum">
+                    <label>Second Number: </label><input type="text" id="secondNum">
+                    <div id="calcButtons">
+                        <button onclick="doAdd()">+</button>
+                        <button onclick="doSubtract()">-</button>
+                        <button onclick="doMultiply()">*</button>
+                        <button onclick="doDivide()">/</button>
+                        <button onclick="doPower()">**</button>
+                    </div>
+                        <button onclick="doClear()">Clear</button>
+                    <p>Result: </p>
+                    <h3 id="output"></h3>
+                </div>
+            </main>
+        </div>
+    </div>
+
+        <footer>
+            <p>All Rights Reserved by Jocelyn Mao <a href="">Credits</a> &#169;</p>
+        </footer>
+</div>
+<script src="../js/calculator.js"></script>
+</body>
+</html>
